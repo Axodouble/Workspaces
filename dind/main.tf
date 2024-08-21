@@ -43,6 +43,7 @@ resource "coder_agent" "main" {
     /tmp/code-server/bin/code-server --install-extension vscjava.vscode-gradle
     /tmp/code-server/bin/code-server --install-extension github.vscode-pull-request-github
     /tmp/code-server/bin/code-server --install-extension redhat.java
+    /tmp/code-server/bin/code-server --install-extension fwcd.kotlin
     /tmp/code-server/bin/code-server --install-extension esbenp.prettier-vscode
     /tmp/code-server/bin/code-server --install-extension eg2.vscode-npm-script
     /tmp/code-server/bin/code-server --install-extension ms-azuretools.vscode-docker
