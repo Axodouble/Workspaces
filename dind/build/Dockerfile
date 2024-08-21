@@ -14,6 +14,7 @@ RUN apt-get update \
 	inetutils-ping \
 	python3 \
 	neofetch \
+	openjdk-21-jdk \
 	&& rm -rf /var/lib/apt/lists/*
 
 ARG USER=coder
