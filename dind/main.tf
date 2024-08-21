@@ -40,6 +40,7 @@ resource "coder_agent" "main" {
 
     # install code-server plugins
     /tmp/code-server/bin/code-server --install-extension ms-python.python
+    /tmp/code-server/bin/code-server --install-extension vscjava.vscode-gradle
     /tmp/code-server/bin/code-server --install-extension github.vscode-pull-request-github
     /tmp/code-server/bin/code-server --install-extension esbenp.prettier-vscode
     /tmp/code-server/bin/code-server --install-extension eg2.vscode-npm-script
